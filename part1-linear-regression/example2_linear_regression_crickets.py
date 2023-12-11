@@ -21,7 +21,7 @@ intercept = round(float(model.intercept_), 2)
 r_squared = model.score(x, y)
 
 # value you are going to predict
-x_predict = 77
+x_predict = 80
 # plug that value into your model
 prediction = model.predict([[x_predict]])
 
